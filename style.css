@@ -1,0 +1,104 @@
+.content{
+	text-align: left;
+	font-size: 120%;
+	     background: linear-gradient(to right, PaleGreen  , MediumAquaMarine  );
+	 margin: auto;
+	 
+	 width:75% ;
+	 font-family: "Varela+Round";
+	 opacity: 0.7;
+	 width: 1000px;
+	  border : solid 1px;
+	   border : outset 6px deepskyblue;
+	  border-radius:50px;
+	padding: 1em;
+	 
+}
+
+h1{
+	color:SeaGreen;
+	font-size: 50px;
+	font-family: Quattrocento;
+	
+	
+}
+
+
+.nodes{
+	font-size:15px;
+	color:gray;
+}
+
+h5{
+	font-size: 20px;
+font-weight: normal;
+font-family: Quattrocento;
+ font-weight: bold;
+	
+}
+	
+
+.content label {
+font-size: 20px;
+font-weight: normal;
+font-family: Quattrocento;
+ font-weight: bold;
+}
+
+
+.content input[type="submit"]{
+	font-size: 20px;
+font-weight: normal;
+font-family: Quattrocento;
+ font-weight: bold;
+ border : outset 6px deepskyblue;
+ border-radius:25px;
+ 
+ 
+}
+
+
+
+
+.content input[type="text"],
+.content input[type="Password"],
+.content input[type="email"],
+.content input[type="url"],
+.content input[type="tel"],
+.content input[type="number"],
+.content input[type="range"],
+.content input[type="chekbox"],
+content input[type="radio"],
+.content select,
+.content textarea {
+font-size: 20px;
+font-weight: normal;
+font-family: Quattrocento;
+ font-weight: bold;
+ border-radius:5px;
+ 
+
+  }
+  
+  
+  
+  
+  
+  
+  
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+#sky {
+    position: absolute;
+    background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0.3, #00111e), to(#033d5e));
+    background: -webkit-linear-gradient(#00111e 30%, #033d5e);
+    background: -moz-linear-gradient(#00111e 30%, #033d5e);
+    background: -o-linear-gradient(#00111e 30%, #033d5e);
+    background: linear-gradient(#00111e 30%, #033d5e);
+}
+  
+	

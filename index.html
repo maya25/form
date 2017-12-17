@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+
+<html dir=ltr>
+
+<head>
+  <title>טופס</title>
+  <meta charset="utf-8">
+
+	
+	<link rel="stylesheet" href="includes/style.css">
+<link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+  <script src="includes/script.js"></script>
+  
+
+
+
+</head>
+
+<body>
+	
+	
+		<canvas id="sky"></canvas>
+ 
+
+  <!-- content -->
+
+	
+	 <div class="content">
+      <h1>Registration form to specialize website and cloud:</h1>      		
+				
+
+<div>
+		<form action="http://html5-book.co.il/teach/forms/get_form2.php" method="get">
+		<label>  
+			 1. Your full name: 
+			<input type="text"  name="fullName" placeholder="Full Name" required  >
+		</label>
+		
+</div>		
+<br>
+
+<div>
+			
+			<label>
+				2.Student password: 
+				<input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,10}" name="pass" placeholder="Password"><br>
+				<text class="nodes" >
+                        Must be 6 to 10 character long.<br>
+                        Must contain at least one number, one uppercase or one lowercase letter.
+                    </text>
+			</label>
+</div>		
+<br>
+
+
+<div>
+	
+			<label>
+				3. Email: 
+				<input type="email" name="mail" placeholder="name@example.com" value="">
+			</label>
+			
+</div>		
+<br>
+
+
+<div>			
+			
+			<label>
+				4.Your phone: 
+				<input type="tel" name="phone"  placeholder="0000000000">
+			</label>
+</div>		
+<br>
+
+
+
+<div>
+                <label>
+                	5.Your address:
+                <input  type="text" name="address" value="">
+                </label>
+            </div>	
+
+<div>
+	<br>
+        
+
+
+<div>			
+			<label>
+				6.How hours you want to learn: 
+				<input type="number" name="coffee" min="0">
+				
+			</label>  
+</div>		
+	
+<br>
+
+<div>			
+				
+			
+				
+
+				<p><label>7.Your degree of willingness to be accepted: 0<input type ="range" name="temper" value="5"
+					min="0" max="100">100</label>
+				</label></p>			
+				
+		        	
+			
+</div>		
+<br>	
+
+<div>		
+			
+			<label>
+			 <h5>8.Your remarks:</h5>                              
+             
+				<textarea rows="8" cols="20" name="nodes" > 
+					
+				</textarea>     
+				 
+				
+			</label>
+			
+</div>		
+<br>
+
+
+	<div>
+	
+ <h5>9.Topics you want to learn: </h5>
+
+ <input type="checkbox"  name="interests[]" value="JavaScript" >JavaScript<br>
+<input type="checkbox" name="interests[]" value="JQuery">JQuery<br>
+<input type="checkbox" name="interests[]" value="ServerSide">Server side<br>
+	
+	
+	
+	
+	
+</div>
+<br>
+                <label>10.Your Age:</label>
+                <select  name="age">
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                </select>
+            </div>
+
+		<div>
+			
+	<label><h5> 11.Your gender:</h5>
+	
+		
+		<input type="radio" name="gender" value="male" checked>Male
+		<br>
+		<input type="radio" name="gender" value="female" checked>Female
+		<br>
+		<input type="radio" name="gender" value="other" checked>Other
+		
+		
+	</label>
+	
+</div>	
+		<br>
+		
+		 <div>
+                    <label>12. Your website:
+                    <input  type="url" name="website" value="" placeholder="http://example.com">
+                    </label>
+                </div>
+                <br>
+			
+			
+
+        <div>
+
+			<input type="submit" value="submit">                                          			
+	
+      </div>
+      
+      
+
+	</div>
+		
+
+
+		</form>
+	
+
+</div>
+</div>
+
+
+
+		
+</body>
+
+
+
+</html>
